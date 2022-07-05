@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    padding-top:40px;
+    padding-bottom: 100px;
+    background: rgba(70, 70, 70, 0.7)url(iEducate_image1.jpg);
+}
+/* card */
+.card{
+    margin: auto;
+    padding: 15px;   
+    padding-bottom: 0;
+    width: 40%;
+    max-width: 50%;    
+    z-index: 2; 
+    background-color: rgba(70, 70, 70, 0.75);
+}
+/* card-title */
+.card-title h1{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    font-weight: 450;
+}
+/* card-text */
+.card-text p{
+    margin: auto;
+    text-align: center;
+    max-width: 70%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    font-size: 0.85rem
+}
+.name{
+    padding-top: 7.5px;    
+}
+.name{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.height{
+    padding-bottom: 12px;    
+}
+/* input-type */
+.name input[type="text"]{
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: -1px;
+    padding: 3.5px;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.weight input[type="text"]{
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: -1px;
+    padding: 3.5px;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.height input[type="text"]{
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    margin-top: -1px;
+    padding: 3.5px;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* pressed */
+.pressed{
+    box-shadow: 0 3px 4px 0 white;
+    opacity: 0.5;
+}
